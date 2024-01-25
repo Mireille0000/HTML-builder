@@ -20,23 +20,3 @@ async function showFiles() {
 }
 
 showFiles();
-
-
-// fileSys.readdir(folderPath, {withFileTypes: true}, (err, files) => {
-//     if (err) {
-//         console.log(err, 'error');
-//     }
-//       for (const file of files) {
-//         if (file.isFile()) {
-//             console.log(file.name);
-//         }
-//       }
-// })
-
-// const pathsToCheck = [`${folderPath}/text.txt`];
-
-// for (let i = 0; i < pathsToCheck.length; i++) {
-//   dirint.stat(pathsToCheck[i], (err, stats) => {
-//         console.log(stats);
-//     });
-// }
